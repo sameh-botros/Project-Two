@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-xl-9 col-lg-12 mt-4">
+                <form #myform="ngForm" method="post" role="form" class="Regestration-form" (submit)="addRequest()">
+                    <div class="text-center">
+                        <h1>Request Form</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label for="formGroupExampleInput">Request Name</label>
+                            <input name="req_name" #reqname="ngModel" type="text" class="form-control" id="formGroupExampleInput" placeholder="Request Name" required [(ngModel)]="requestForm.reqName">
+                            <div class="text-danger small" *ngIf="reqname.invalid && reqname.touched">Request Name is required</div>
+                        </div>
+
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="formGroupExampleInput2">Price</label>
+                            <input name="price" #reqprice="ngModel" type="number" class="form-control" id="formGroupExampleInput2" placeholder="price" required [(ngModel)]="requestForm.reqPrice">
+                            <div class="text-danger small" *ngIf="reqprice.invalid && reqprice.touched">Price is required</div>
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label for="formGroupExampleInput2">Request Description</label>
+                            <input name="description" #descript="ngModel" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Description" required [(ngModel)]="requestForm.reqDescription">
+                            <div class="text-danger small" *ngIf="descript.invalid && descript.touched">Request Name is required</div>
+                        </div>
+
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <div class="mb-3">
+                                <label for="formFileSm" class="form-label">Upload Reciept</label>
+                                <input name="imageBlob" #imageBlob="ngModel" class="form-control" id="formFileSm" type="file" (change)="selectFile($event)" required [(ngModel)]="requestForm.imageBlob">
+                            </div>
+
+                            <!-- <label>Upload Reciept -->
+                            <!-- <input name="imageBlob" #imageBlob="ngModel" class="form-control" type="file" -->
+                            <!-- (change)="selectFile($event)" required [(ngModel)]="requestForm.imageBlob"> -->
+                            <!-- </label> -->
+
+                            <div class="text-danger small" *ngIf="imageBlob.invalid && imageBlob.touched"></div>
+                        </div>
+                        <div class="col-md-6 form-group mt-3">
+                            <div class="row">
+                                <div *ngIf="currentFile" class="progress my-3">
+                                    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" attr.aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ width: progress + '%' }">
+                                        {{ progress }}%
+                                    </div>
+                                </div>
+                                <div>
+                                    <!-- <img name="myImage" *ngFor='let preview of previews' [src]="preview" class="preview" width="30" height="50"> -->
+                                </div>
+                                <div *ngIf="message" class="alert alert-success" role="alert">{{ message }}</div>
+                                <div *ngIf="errorMsg" class="alert alert-danger" role="alert">{{ errorMsg }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="myform.invalid || reqprice.value < 1">Submit</button>
+                    <button type="reset" class="btn btn-primary" id="buttunclear">Clear</button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- <div [ngClass]="{'message': info.priority < 10, 'warn': info.priority > 10 && info.priority < 20, 'error': info.priority > 30}"> -->

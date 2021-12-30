@@ -1,0 +1,33 @@
+<section id="contact" class="contact">
+    <div class="container">
+        <!-- <h5 class="text-danger my-2">{{errorMsg}}</h5> -->
+
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-12 mt-4">
+                <form #signInForm="ngForm" class="Regestration-form" (submit)="validataLogin()">
+                    <div class="text-center">
+                        <h1>Login</h1>
+                        <div *ngIf="errorMsg" class="alert alert-danger" role="alert">{{errorMsg}}</div>
+                        <hr>
+                    </div>
+                    <div class=""></div>
+                    <div class="mb-4 form-check ">
+                        <label for="firsttName">Name</label>
+                        <input name="name" #name="ngModel" type="text" class="form-control" id="Name" placeholder="User Name" required autofocus [(ngModel)]="newUser.name">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <label for="inputPassword4">Password</label>
+                        <input name="password" #password="ngModel" type="password" class="form-control" id="inputPassword" placeholder="Password" required autofocus minlength="3" [(ngModel)]="newUser.password">
+                    </div>
+                    <div class="mb-3 form-check">
+
+                        <button type="submit" mat-raised-button color="primary" [disabled]="signInForm.invalid">Login</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section>

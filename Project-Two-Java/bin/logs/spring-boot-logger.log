@@ -1,0 +1,163 @@
+2021-12-13 07:51:53,216 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-19 housekeeper] HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=8h12m20s210ms568µs).
+2021-12-13 07:52:11,340 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 150 ms
+2021-12-13 07:54:02,459 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-3] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 92 ms
+2021-12-13 07:54:02,682 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-4] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 50 ms
+2021-12-13 07:54:04,286 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-5] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 54 ms
+2021-12-13 07:54:10,786 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-7] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 8 ms
+2021-12-13 07:54:23,960 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-9] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 4 ms
+2021-12-13 07:54:27,865 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allResolvedRequsts :: 4 ms
+2021-12-13 07:54:33,228 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-3] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 1 ms
+2021-12-13 07:54:35,270 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-4] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allResolvedRequsts :: 2 ms
+2021-12-13 07:54:40,626 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-6] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 2 ms
+2021-12-13 07:54:43,413 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-8] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 1 ms
+2021-12-13 07:54:46,845 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-9] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 1 ms
+2021-12-13 07:55:26,313 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 3 ms
+2021-12-13 07:55:39,437 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-3] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 0 ms
+2021-12-13 09:27:47,023 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-75] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 09:27:47,033 INFO com.zaxxer.hikari.HikariDataSource [Thread-75] HikariPool-19 - Shutdown initiated...
+2021-12-13 09:27:47,040 INFO com.zaxxer.hikari.HikariDataSource [Thread-75] HikariPool-19 - Shutdown completed.
+2021-12-13 09:27:47,374 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ReimbursementApplication using Java 17 on DESKTOP-M1QHDTO with PID 22748 (C:\Users\14806\projets\reimbursement\target\classes started by 14806 in C:\Users\14806\projets\reimbursement)
+2021-12-13 09:27:47,375 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-13 09:27:48,599 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 09:27:48,632 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2021-12-13 09:27:49,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 09:27:49,313 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-13 09:27:49,314 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-13 09:27:49,314 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 09:27:49,409 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-13 09:27:49,409 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2023 ms
+2021-12-13 09:27:49,770 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 09:27:49,791 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Starting...
+2021-12-13 09:27:49,934 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Start completed.
+2021-12-13 09:27:49,937 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-12-13 09:27:50,174 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 09:27:50,175 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 09:27:50,677 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 09:27:51,689 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-13 09:27:51,706 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-13 09:27:51,762 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-13 09:27:51,773 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 09:27:51,808 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ReimbursementApplication in 4.603 seconds (JVM running for 83320.715)
+2021-12-13 09:27:51,814 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-13 09:28:18,609 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-79] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 09:28:18,616 INFO com.zaxxer.hikari.HikariDataSource [Thread-79] HikariPool-20 - Shutdown initiated...
+2021-12-13 09:28:18,626 INFO com.zaxxer.hikari.HikariDataSource [Thread-79] HikariPool-20 - Shutdown completed.
+2021-12-13 09:28:18,919 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ReimbursementApplication using Java 17 on DESKTOP-M1QHDTO with PID 22748 (C:\Users\14806\projets\reimbursement\target\classes started by 14806 in C:\Users\14806\projets\reimbursement)
+2021-12-13 09:28:18,919 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-13 09:28:19,980 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 09:28:20,025 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2021-12-13 09:28:20,483 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 09:28:20,483 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-13 09:28:20,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-13 09:28:20,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 09:28:20,554 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-13 09:28:20,554 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1629 ms
+2021-12-13 09:28:20,933 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 09:28:20,944 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Starting...
+2021-12-13 09:28:21,080 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Start completed.
+2021-12-13 09:28:21,081 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-12-13 09:28:21,205 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 09:28:21,205 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 09:28:22,173 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 09:28:23,101 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-13 09:28:23,117 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-13 09:28:23,170 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-13 09:28:23,177 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 09:28:23,205 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ReimbursementApplication in 4.363 seconds (JVM running for 83352.112)
+2021-12-13 09:28:23,210 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-13 10:13:30,505 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(950)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 10:13:30,542 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(950)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-12-13 10:13:30,577 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(950)-127.0.0.1] Completed initialization in 33 ms
+2021-12-13 10:46:16,280 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(986)-127.0.0.1] Application shutdown requested.
+2021-12-13 10:46:17,767 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(986)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 10:46:17,993 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(986)-127.0.0.1] HikariPool-21 - Shutdown initiated...
+2021-12-13 10:46:18,207 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(986)-127.0.0.1] HikariPool-21 - Shutdown completed.
+2021-12-13 12:36:05,294 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ReimbursementApplication using Java 17 on DESKTOP-M1QHDTO with PID 22580 (C:\Users\14806\projets\reimbursement\target\classes started by 14806 in C:\Users\14806\projets\reimbursement)
+2021-12-13 12:36:05,306 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-13 12:36:05,312 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-13 12:36:05,500 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-13 12:36:05,501 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-13 12:36:10,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:36:10,936 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 330 ms. Found 2 JPA repository interfaces.
+2021-12-13 12:36:14,678 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:36:14,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-13 12:36:14,736 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-13 12:36:14,741 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:36:15,178 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:36:15,180 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9676 ms
+2021-12-13 12:36:16,470 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:36:16,784 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-13 12:36:17,571 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:36:18,246 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-13 12:36:19,395 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-13 12:36:19,488 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-12-13 12:36:22,927 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:36:22,964 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:36:26,184 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:36:29,730 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-13 12:36:29,755 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-13 12:36:29,894 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-13 12:36:30,060 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:36:30,162 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ReimbursementApplication in 26.553 seconds (JVM running for 33.205)
+2021-12-13 12:36:30,862 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:36:30,865 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:36:30,871 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 5 ms
+2021-12-13 12:52:51,576 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-2] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 715 ms
+2021-12-13 12:52:52,376 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-3] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 295 ms
+2021-12-13 12:53:12,142 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-5] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 148 ms
+2021-12-13 12:53:25,307 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-7] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 40 ms
+2021-12-13 12:54:11,860 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-9] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 17 ms
+2021-12-13 12:54:19,875 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 9 ms
+2021-12-13 12:54:21,638 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-3] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allResolvedRequsts :: 21 ms
+2021-12-13 12:54:56,275 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-5] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 3 ms
+2021-12-13 12:55:15,004 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-7] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.userPendingRequestes :: 11 ms
+2021-12-13 12:55:16,191 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-8] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.userResolveRequest :: 15 ms
+2021-12-13 15:30:32,374 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(180)-127.0.0.1] Application shutdown requested.
+2021-12-13 15:30:33,088 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(180)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 15:30:33,164 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(180)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-13 15:30:33,194 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(180)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-12-13 15:42:10,048 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-12-13 15:42:10,067 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ReimbursementApplication using Java 17 on DESKTOP-M1QHDTO with PID 15652 (C:\Users\14806\projets\reimbursement\target\classes started by 14806 in C:\Users\14806\projets\reimbursement)
+2021-12-13 15:42:10,068 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-13 15:42:10,151 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-13 15:42:10,151 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-13 15:42:12,597 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 15:42:12,687 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2021-12-13 15:42:13,712 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 15:42:13,726 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-13 15:42:13,727 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-13 15:42:13,727 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 15:42:13,863 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-13 15:42:13,864 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3711 ms
+2021-12-13 15:42:14,227 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 15:42:14,304 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-13 15:42:14,505 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 15:42:14,621 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-13 15:42:14,923 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-13 15:42:14,950 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-12-13 15:42:16,122 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 15:42:16,136 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 15:42:17,057 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 15:42:18,032 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-13 15:42:18,041 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-12-13 15:42:18,084 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-12-13 15:42:18,123 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 15:42:18,146 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ReimbursementApplication in 8.609 seconds (JVM running for 10.072)
+2021-12-13 15:42:20,905 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 15:42:20,905 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-12-13 15:42:20,907 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2021-12-13 15:42:41,193 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-2] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 41 ms
+2021-12-13 15:42:58,570 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-5] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.addRequest :: 49 ms
+2021-12-13 15:46:10,552 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-7] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 19 ms
+2021-12-13 15:48:48,147 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-9] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 20 ms
+2021-12-13 15:49:00,991 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.getUserById :: 90 ms
+2021-12-13 15:49:09,688 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-2] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.getUserById :: 4 ms
+2021-12-13 15:49:12,842 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-4] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.userResolveRequest :: 38 ms
+2021-12-13 15:54:52,560 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-6] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.logIn :: 13 ms
+2021-12-13 15:54:52,986 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-7] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 269 ms
+2021-12-13 15:54:54,282 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-8] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 136 ms
+2021-12-13 15:54:57,678 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-10] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.allPendingRequsts :: 3 ms
+2021-12-13 15:55:00,145 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-1] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 6 ms
+2021-12-13 15:55:01,241 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-2] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 17 ms
+2021-12-13 16:05:02,318 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-4] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of UsersServicEmpliment.allEmployees :: 81 ms
+2021-12-13 16:05:04,074 INFO com.revture.project2.reimbursement.aop.LoggingAspect [http-nio-8080-exec-5] BOOKCRUD - Spring Boot Logging AOP EXAMPLE - Execution time of RequestServicEmpliment.spacificEmployeeRequests :: 16 ms

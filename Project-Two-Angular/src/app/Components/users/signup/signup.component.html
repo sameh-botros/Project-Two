@@ -1,0 +1,73 @@
+<div class="container mt-3">
+    <h5 class="text-danger my-2">{{errorMsg}}</h5>
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-lg-12 mt-4">
+                    <form #myform="ngForm" method="post" role="form" class="Regestration-form">
+                        <div class="text-center">
+                            <h1>Registration Form</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="firsttName">Name</label>
+                                <input ngModel name="name" #name="ngModel" type="text" class="form-control" id="firsttName" placeholder="Name" required [(ngModel)]="newUser.name">
+                                <div class="text-danger small" *ngIf="name.invalid && name.touched ">Name is required</div>
+                            </div>
+
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <label for="inputEmail4">Email</label>
+                                <input ngModel name="email" #email="ngModel" type="email" class="form-control" id="inputEmail4" placeholder="Email" required email [(ngModel)]="newUser.email">
+                                <div class="text-danger small" *ngIf="email.touched && email.errors?.['required'] ">Email is required
+                                </div>
+                                <div class="text-danger small" *ngIf="email.touched && email.errors?.['email'] ">Your email does not match email form</div>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <label for="inputPassword4">Password</label>
+                                <input ngModel name="password" #password="ngModel" type="password" class="form-control" id="inputPassword4" placeholder="Password" required minlength="3" [(ngModel)]="newUser.password">
+                                <div class="text-danger small" *ngIf="password.touched && password.errors?.['required'] ">Password is required
+                                </div>
+                                <div class="text-danger small" *ngIf="password.touched && password.errors?.['minlength'] ">Your Password length less than 3 characters</div>
+                            </div>
+
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <label for="confermPassword4">Confarm Password</label>
+                                <input ngModel name="passwordconfirm" #passwordconferm="ngModel" tq-validate-after type="password" class="form-control" id="confermPassword4" placeholder="Conferm Password" required>
+                                <div class="alert alert-danger" *ngIf="password.touched && passwordconferm.value !== password.value ">
+                                    Password are not match</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <label for="inputAddress">Address</label>
+                            <input ngModel name="address" #address="ngModel" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required [(ngModel)]="newUser.addres">
+                            <div class="text-danger small" *ngIf="address.invalid && address.touched">Address is required</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="contactNumber">Contact</label>
+                                <input ngModel name="contact" #contact="ngModel" type="tel" class="form-control" id="contactNumber" placeholder="Contact Number" required [(ngModel)]="newUser.contact">
+                                <div class="text-danger small" *ngIf="contact.invalid && contact.touched">Contact is required</div>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <label for="inputName">Type</label>
+                                <select [(ngModel)]="newUser.usertypeId" name="type" #type="ngModel" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                  <option selected>Choose Type</option>
+                  <option *ngFor="let emptype of employeeType" [value]=emptype.Id>{{emptype.Name}}</option>
+                </select>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" [disabled]="myform.invalid || password.value !== passwordconferm.value || type.value == 'Choose Type'" (click)="signup()">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</div>
