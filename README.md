@@ -68,4 +68,4 @@ To use the project you
 
 Contributors
 -----
-Worked in group of two developers I did 80% of the project all backend exept the upload image and most of the frontend exept the upload image, Jasmine and Karma test 
+Worked in group of two developers  
